@@ -1,42 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <link rel="shortcut icon" href="Florzin.ico" type="image/x-icon">
+    <style>
+        Div{
+            height: 400px;
+            width: 400px;
 
-    <title>BOX MODEL</title>
-    
-<div>
-    <p>Descodificadas</p>
+            border-width: 20px;
+            border-style:solid;
+            border-color: blueviolet;
 
-</div>
+            background-image: url(Flor.webp);
+            text-align: center;
+            box-shadow: inset 7px 7px 15px 5px red;
+            background-size: cover;
 
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
 
-<style>
+            outline-width: 18px;
+            outline-style: double;
+            outline-color: rgb(167, 65, 124);
 
-div{
-    height: 400px;
-    width: 400px;
-    background-image: url(https://img.freepik.com/fotos-premium/uma-orquidea-roxa-e-branca-com-gotas-de-agua_900958-8292.jpg);
-    border: 15px solid rgb(165, 4, 143);
-    border-style:double;
-    
-box-shadow:inset 26px 23px 23px 233px rgb(207, 0, 0);
-    background-size:cover;
+            margin:auto;
+            margin-top: 100px;
 
-    padding-top: 10px;
-    padding-left: 2px;
-    padding-right: 2px;
-    padding-bottom: 2px;
-    
-}
+        }
 
-p{
-    font-size: 50px; color: yellow;
-    font-weight: bold;
-    font-style: italic;
-    text-align: center;
-    padding-top: 100px;
-}
+        p{
+            padding-top: 100px;
+            font-style: italic;
+            font-size: 50px;
+            color:yellow;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>Descodificadas</p>
+    </div>
+</body>
+
+</html>
